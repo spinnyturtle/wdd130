@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://127.0.0.1:5500/WWR/WWR%20site.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Water Rafting Planner</title>
+    
+<link rel="stylesheet" href="./White Water Rafting Planner_files/WWRsite.css"></head>
+
+<body> 
+    <div id="content">
+    <header>
+    <a id="logo_link" href="http://127.0.0.1:5500/WWR/index.html">
+     <img class="logo" src="./White Water Rafting Planner_files/river.png" alt="Dry Oar Logo" width="600px">
+    </a>
+  <nav>
+            <a href="http://127.0.0.1:5500/WWR/index.html" target="_blank">Home</a>
+            <a href="http://127.0.0.1:5500/WWR/WWR%20site.html#" target="_blank">Page 2</a>
+            <a href="http://127.0.0.1:5500/WWR/site-plan-rafting.html" target="_blank">Site Plan</a>
+            <a href="http://127.0.0.1:5500/WWR/contactus.html" target="_blank">Contact Us</a>
+    </nav>
+    <p> test </p>
+    </header>
+    <div id="hero">
+    <div id="hero-box">
+        <img id="hero-img" src="./White Water Rafting Planner_files/WhiteWaterExample.jpeg" alt="People enjoying white water rafting">
+    </div>
+    <div id="background"></div>  
+    <section id="hero-msg">
+        <h1 class="home-title">Plan Yourself An Adventure</h1>
+        <h4>Make Memories with your family  </h4>
+        <div class="button-box">
+            <a class="book" href="http://127.0.0.1:5500/WWR/contactus.html">Book Now</a>
+        </div>
+    </section>
+</div>
+<main class="home-grid">
+    <section class="rivers-card">
+        <img class="icon" src="./White Water Rafting Planner_files/rapids.jpeg" alt="river in forest">
+        <h2>Finding The Right Rapids</h2>
+    </section>
+    <section class="camping-card">
+        <img class="icon" src="./White Water Rafting Planner_files/Campfire.jpg" alt="tent in mountains">
+   
+        <h2>Camping Grounds</h2>
+    </section>
+    <section class="rapids-card">
+        <img class="icon" src="./White Water Rafting Planner_files/Hotel.jpeg" alt="rafting boat">
+        <h2>Hotels for You</h2>
+    </section>
+ <section>
+    <img class="msg" src="./White Water Rafting Planner_files/Desert Mountains.jpeg" alt="Desert mountains">
+        <a class="join" href="http://127.0.0.1:5500/WWR/rivers.html" target="_blank">Join Us</a>
+</section>
+<section class="footer2">
+ <h2>More Than Just The Thrill</h2>
+        <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and the high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
+</section>
+    </main>
+<footer>
+    <p> White Water Rafting Planner © 20XX - Spencer pethel</p>
+    <p><a href="http://127.0.0.1:5500/WWR/White_Water_rafting.html" target="_blank">Site Plan</a></p>
+    <p><a href="http://127.0.0.1:5500/WWR/contactus.html" target="_blank">Contact Us</a></p>
+    <div class="social">
+        <a href="https://facebook.com/" target="_blank"> 
+            <img class="web" src="./White Water Rafting Planner_files/Facebook.svg.webp" alt="fb icon">
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+            <img class="web" src="./White Water Rafting Planner_files/twitter.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com/" target="_blank">
+            <img class="web" src="./White Water Rafting Planner_files/Imstamagram.jpeg" alt="instagram icon">
+        </a>
+    </div>
+</footer>
+</div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
