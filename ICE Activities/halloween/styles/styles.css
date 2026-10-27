@@ -1,0 +1,13 @@
+/* Add your CSS here to style your halloween page */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fe9d4d; 
+    color: #592a56; 
+    text-align: center; 
+}
+.title {
+   font-size: 50px;
+    margin: 20px;
+}
