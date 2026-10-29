@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flag</title>
+    <link rel="stylesheet" href="grid_flags.css">
     <style>
         body {
             margin: 0;
@@ -36,44 +37,12 @@
         }
         hr {
             width: 100%;
-            grid-column: 1 / 5;
+            grid-column: 1 / 6;
         }
         h2 {
             grid-column: 2/3;
         }
 
-        #blue {
-            background: blue;
-            grid-column: 1 / 2;
-            display: grid;
-            align-items: center;
-            justify-items: center;
-        }
-
-        #white {
-            background: white;
-            grid-column: 2 / 4;
-        }
-
-        #red {
-            background: red;
-            grid-column: 1 / 4;
-        }
-
-        #chile {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            height: 200px;
-            width: 300px;
-        }
-
-        .star {
-            width: 70px;
-            aspect-ratio: 1;
-            background: white;
-            clip-path: polygon(50% 0, 79% 90%, 2% 35%, 98% 35%, 21% 90%);
-        }
     </style>
 </head>
 
@@ -119,9 +88,21 @@
         <hr>
 
         <h2> Italy</h2>
-        <div id=italy></div>
+        <div id="italy">
            <div id="igreen"></div>
             <div id="ired"></div>
+        </div>
+        <hr>
+        <h2> Central African Republic</h2>
+        <div id="CAR">
+            <div id="cblue"></div>
+            <div id="cred"></div>
+            <div id="cgreen"></div>
+            <div id="cwhite"></div>
+            <div id="cyellow"></div>
+            <div id="cstar"></div>
+
+        </div>
         <hr>
     </main>
 </body>
