@@ -20,7 +20,8 @@ body{
 #content, h1,a{
     color: #fffffe;
     font-family: 'Helvetica';
-    padding: 1500px, 0px, 0px, 0px;
+    padding: 5px;
+    padding-bottom: 10px;
 }
 a{
     text-decoration: none;
