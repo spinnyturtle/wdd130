@@ -1,0 +1,46 @@
+#card {
+   justify-items: center;
+   align-self: center;
+   text-align: center;
+    width: 375px;
+    height: 600px;
+    background-color: #008db1; 
+  margin: 50px auto;
+  border: 5px;
+  border-color: rgb(63, 72, 158);
+  border-style: solid;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+body{
+    background-color: #ffecd7;
+}
+
+#content, h1,a{
+    color: #fffffe;
+    font-family: 'Helvetica';
+    padding: 1500px, 0px, 0px, 0px;
+}
+a{
+    text-decoration: none;
+ 
+}
+#link{
+width:300px;
+
+}
+
+img{
+    width: 200px;
+    height: auto;
+    border: 5px solid #fffffe;
+   
+}
+
+#quote {
+    color: #ffd783;
+    font-family: 'Nanum Brush Script';
+    width: 300px;
+    font-size: 18px;
+}
